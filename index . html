@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[DANI RZ] | Artista rkt Trap</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0a0a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    header {
+      padding: 100px 20px;
+      background: linear-gradient(180deg, #ff00ff, #0a0a0a);
+    }
+    h1 {
+      font-size: 50px;
+      letter-spacing: 3px;
+      color: #00ff88;
+    }
+    h2 { color: #ccc; margin-top: 10px; }
+    .btn {
+      display: inline-block;
+      margin: 20px 10px;
+      padding: 15px 30px;
+      background: #00ff88;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+    }
+    .btn:hover { background: #ff00ff; color: #fff; }
+    section { padding: 60px 20px; }
+    .links a {
+      color: #00ff88;
+      margin: 0 15px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    footer { padding: 30px; color: #555; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>[Dani RZ]</h1>
+    <h2>Trap / RKT desde Luque, PY 🇵🇾</h2>
+    <a href="#musica" class="btn">Escucha mi música</a>
+    <a href="#contacto" class="btn">Contacto</a>
+  </header>
+
+  <section id="musica">
+    <h2>Mi último tema</h2>
+    <p>Pega aquí tu link de YouTube o SoundCloud</p>
+    <!-- Pega tu video de YT aquí -->
+    <iframe width="90%" height="315" src="https://www.youtube.com/@danyrz021" frameborder="0"></iframe>
+  </section>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy independiente. Hago música real, de la calle. <br>
+    Se viene trap nuevo pronto 👀</p>
+  </section>
+
+  <section id="contacto" class="links">
+    <h2>Sígueme</h2>
+    <a href="https://www.instagram.com/danyruiz_rz?igsh=MTg2NnhjNnA4bHZhMw==">Instagram</a>
+    <a href="https://tiktok.com/@danyrz2.1">TikTok</a>
+    <a href="mailto:dany.rzestylorap@gmail.com">Email</a>
+  </section>
+
+  <footer>
+    <p>© 2026 [Dani Rz] - Hecho con actitud</p>
+  </footer>
+
+</body>
+</html>
